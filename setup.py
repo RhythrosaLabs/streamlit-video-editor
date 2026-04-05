@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="streamlit-nle",
-    version="0.1.0",
+    version="0.1.1",
     author="Dan Sheils",
     author_email="",
     description="Non-linear video editor component for Streamlit with multi-track timeline",

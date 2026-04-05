@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e0e1c"/><stop offset="100%" stop-color="#08080f"/></linearGradient>
+    <linearGradient id="vclip1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/><stop offset="100%" stop-color="#818cf8" stop-opacity="0.1"/></linearGradient>
+    <linearGradient id="vclip2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a78bfa" stop-opacity="0.35"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0.1"/></linearGradient>
+    <linearGradient id="aclip1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/><stop offset="100%" stop-color="#34d399" stop-opacity="0.1"/></linearGradient>
+    <linearGradient id="aclip2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.35"/><stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.1"/></linearGradient>
+    <linearGradient id="toolbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e0e1c"/><stop offset="100%" stop-color="#08080f"/></linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="900" height="520" rx="14" fill="url(#bg)" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Toolbar -->
+  <rect x="0" y="0" width="900" height="38" rx="14" fill="url(#toolbar)"/>
+  <rect x="0" y="14" width="900" height="24" fill="url(#toolbar)"/>
+  <line x1="0" y1="38" x2="900" y2="38" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Transport buttons -->
+  <rect x="12" y="9" width="24" height="20" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="24" y="23" font-family="sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">⏮</text>
+  <rect x="40" y="9" width="24" height="20" rx="5" fill="rgba(255,255,255,0.03)"/>
+  <text x="52" y="23" font-family="sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">⏪</text>
+  <rect x="68" y="9" width="30" height="20" rx="5" fill="rgba(129,140,248,0.18)" stroke="rgba(129,140,248,0.4)"/>
+  <text x="83" y="23" font-family="sans-serif" font-size="11" fill="#818cf8" text-anchor="middle">▶</text>
+  <rect x="102" y="9" width="24" height="20" rx="5" fill="rgba(255,255,255,0.03)"/>
+  <text x="114" y="23" font-family="sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">⏩</text>
+  <!-- Timecode -->
+  <rect x="140" y="9" width="135" height="20" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="207" y="23" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">00:07:15 / 0:27.0</text>
+  <!-- Tool buttons -->
+  <rect x="290" y="9" width="46" height="20" rx="5" fill="rgba(129,140,248,0.18)" stroke="rgba(129,140,248,0.4)"/>
+  <text x="313" y="23" font-family="sans-serif" font-size="9" fill="#818cf8" text-anchor="middle">◇ Select</text>
+  <rect x="340" y="9" width="46" height="20" rx="5" fill="rgba(255,255,255,0.03)"/>
+  <text x="363" y="23" font-family="sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">✂ Razor</text>
+  <rect x="394" y="9" width="40" height="20" rx="5" fill="rgba(255,255,255,0.03)"/>
+  <text x="414" y="23" font-family="sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">▦ Snap</text>
+  <!-- Import button -->
+  <rect x="760" y="9" width="56" height="20" rx="5" fill="rgba(129,140,248,0.1)" stroke="rgba(129,140,248,0.3)"/>
+  <text x="788" y="23" font-family="sans-serif" font-size="9" fill="#818cf8" text-anchor="middle">📁 Import</text>
+  <!-- Zoom -->
+  <text x="838" y="23" font-family="sans-serif" font-size="8" fill="#475569">ZOOM</text>
+  <rect x="860" y="17" width="30" height="3" rx="1" fill="rgba(255,255,255,0.1)"/>
+  <!-- Preview Panel -->
+  <rect x="0" y="38" width="610" height="200" fill="#0e0e1c"/>
+  <line x1="610" y1="38" x2="610" y2="238" stroke="rgba(255,255,255,0.06)"/>
+  <line x1="0" y1="238" x2="900" y2="238" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Preview header -->
+  <rect x="0" y="38" width="610" height="22" fill="#0e0e1c"/>
+  <text x="10" y="53" font-family="sans-serif" font-size="9" fill="#475569" letter-spacing="1.2">▼ PREVIEW — Interview_A.mp4</text>
+  <line x1="0" y1="60" x2="610" y2="60" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Preview area (black) -->
+  <rect x="0" y="60" width="610" height="178" fill="#000"/>
+  <text x="305" y="140" font-family="sans-serif" font-size="36" fill="rgba(255,255,255,0.15)" text-anchor="middle">🎬</text>
+  <text x="305" y="165" font-family="sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Interview_A.mp4</text>
+  <text x="305" y="180" font-family="sans-serif" font-size="10" fill="#475569" text-anchor="middle">No media linked</text>
+  <!-- Timecode overlay -->
+  <rect x="8" y="222" width="80" height="18" rx="4" fill="rgba(0,0,0,0.6)"/>
+  <text x="48" y="234" font-family="monospace" font-size="10" fill="white" text-anchor="middle">00:07:15</text>
+  <!-- Media Bin -->
+  <rect x="610" y="38" width="290" height="200" fill="#141428"/>
+  <!-- Bin header -->
+  <text x="620" y="53" font-family="sans-serif" font-size="9" fill="#475569" letter-spacing="1.2">▶ MEDIA BIN (3)</text>
+  <text x="860" y="53" font-family="sans-serif" font-size="9" fill="#818cf8">+ Import</text>
+  <line x1="610" y1="60" x2="900" y2="60" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Media items -->
+  <rect x="616" y="66" width="278" height="42" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="624" y="74" width="42" height="26" rx="4" fill="rgba(129,140,248,0.1)"/>
+  <text x="645" y="91" font-family="sans-serif" font-size="12" fill="#818cf8" text-anchor="middle">🎬</text>
+  <text x="676" y="85" font-family="sans-serif" font-size="10" fill="#e2e8f0">Interview_A.mp4</text>
+  <text x="676" y="97" font-family="sans-serif" font-size="8" fill="#475569">VIDEO · 0:12.0 · 24.5 MB</text>
+  <rect x="616" y="112" width="278" height="42" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="624" y="120" width="42" height="26" rx="4" fill="rgba(52,211,153,0.1)"/>
+  <text x="645" y="137" font-family="sans-serif" font-size="12" fill="#34d399" text-anchor="middle">♪</text>
+  <text x="676" y="131" font-family="sans-serif" font-size="10" fill="#e2e8f0">Ambient_Score.mp3</text>
+  <text x="676" y="143" font-family="sans-serif" font-size="8" fill="#475569">AUDIO · 0:27.0 · 3.2 MB</text>
+  <rect x="616" y="158" width="278" height="42" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="624" y="166" width="42" height="26" rx="4" fill="rgba(129,140,248,0.1)"/>
+  <text x="645" y="183" font-family="sans-serif" font-size="12" fill="#818cf8" text-anchor="middle">🎬</text>
+  <text x="676" y="177" font-family="sans-serif" font-size="10" fill="#e2e8f0">Outro.mp4</text>
+  <text x="676" y="189" font-family="sans-serif" font-size="8" fill="#475569">VIDEO · 0:05.0 · 8.1 MB</text>
+  <!-- Ruler -->
+  <rect x="0" y="238" width="900" height="30" fill="#0e0e1c"/>
+  <line x1="0" y1="268" x2="900" y2="268" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="0" y="238" width="148" height="30" fill="#0e0e1c"/>
+  <text x="74" y="257" font-family="sans-serif" font-size="8" fill="#475569" text-anchor="middle" letter-spacing="1.5">▼ TRACKS</text>
+  <line x1="148" y1="238" x2="148" y2="268" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Time marks -->
+  <text x="160" y="255" font-family="monospace" font-size="8" fill="#475569">0:00.0</text>
+  <line x1="156" y1="260" x2="156" y2="268" stroke="rgba(255,255,255,0.2)"/>
+  <text x="300" y="255" font-family="monospace" font-size="8" fill="#475569">0:10.0</text>
+  <line x1="296" y1="260" x2="296" y2="268" stroke="rgba(255,255,255,0.2)"/>
+  <text x="440" y="255" font-family="monospace" font-size="8" fill="#475569">0:20.0</text>
+  <line x1="436" y1="260" x2="436" y2="268" stroke="rgba(255,255,255,0.2)"/>
+  <text x="580" y="255" font-family="monospace" font-size="8" fill="#475569">0:30.0</text>
+  <!-- Track Headers -->
+  <rect x="0" y="268" width="148" height="64" fill="#0e0e1c"/>
+  <rect x="4" y="286" width="4" height="28" rx="2" fill="#818cf8"/>
+  <text x="16" y="297" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">Video 1</text>
+  <text x="16" y="308" font-family="sans-serif" font-size="8" fill="#475569" letter-spacing="0.6">VIDEO · 3</text>
+  <!-- Track controls -->
+  <rect x="100" y="288" width="14" height="14" rx="2" fill="rgba(255,255,255,0.03)"/>
+  <text x="107" y="299" font-family="sans-serif" font-size="7" fill="#94a3b8" font-weight="700" text-anchor="middle">M</text>
+  <rect x="116" y="288" width="14" height="14" rx="2" fill="rgba(255,255,255,0.03)"/>
+  <text x="123" y="299" font-family="sans-serif" font-size="7" fill="#94a3b8" font-weight="700" text-anchor="middle">S</text>
+  <rect x="132" y="288" width="14" height="14" rx="2" fill="rgba(255,255,255,0.03)"/>
+  <text x="139" y="299" font-family="sans-serif" font-size="7" fill="#94a3b8" font-weight="700" text-anchor="middle">🔒</text>
+  <line x1="0" y1="332" x2="148" y2="332" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Track 2 header -->
+  <rect x="0" y="332" width="148" height="64" fill="rgba(255,255,255,0.01)"/>
+  <rect x="4" y="350" width="4" height="28" rx="2" fill="#818cf8"/>
+  <text x="16" y="361" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">B-Roll</text>
+  <text x="16" y="372" font-family="sans-serif" font-size="8" fill="#475569" letter-spacing="0.6">VIDEO · 2</text>
+  <line x1="0" y1="396" x2="148" y2="396" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Track 3 header (audio) -->
+  <rect x="0" y="396" width="148" height="64" fill="#0e0e1c"/>
+  <rect x="4" y="414" width="4" height="28" rx="2" fill="#34d399"/>
+  <text x="16" y="425" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">Dialogue</text>
+  <text x="16" y="436" font-family="sans-serif" font-size="8" fill="#475569" letter-spacing="0.6">AUDIO · 1</text>
+  <line x1="0" y1="460" x2="148" y2="460" stroke="rgba(255,255,255,0.06)"/>
+  <line x1="148" y1="268" x2="148" y2="490" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Timeline area -->
+  <!-- Video Track 1 clips -->
+  <rect x="156" y="273" width="84" height="54" rx="7" fill="url(#vclip1)" stroke="rgba(129,140,248,0.3)"/>
+  <rect x="156" y="273" width="84" height="3" rx="2" fill="rgba(129,140,248,0.5)"/>
+  <text x="164" y="316" font-family="sans-serif" font-size="8" fill="rgba(129,140,248,0.8)">🎬 Intro.mp4</text>
+  <text x="228" y="316" font-family="monospace" font-size="7" fill="#475569">6.0s</text>
+  <rect x="254" y="273" width="168" height="54" rx="7" fill="url(#vclip2)" stroke="rgba(167,139,250,0.3)"/>
+  <rect x="254" y="273" width="168" height="3" rx="2" fill="rgba(167,139,250,0.5)"/>
+  <!-- Selected clip glow -->
+  <rect x="254" y="273" width="168" height="54" rx="7" fill="none" stroke="#818cf8" stroke-width="1.5" filter="url(#glow)"/>
+  <circle cx="416" cy="278" r="3" fill="#34d399"/>
+  <text x="262" y="316" font-family="sans-serif" font-size="8" fill="rgba(167,139,250,0.8)">🎬 Interview_A.mp4</text>
+  <text x="406" y="316" font-family="monospace" font-size="7" fill="#475569">12.0s</text>
+  <rect x="450" y="273" width="70" height="54" rx="7" fill="url(#vclip1)" stroke="rgba(129,140,248,0.3)"/>
+  <rect x="450" y="273" width="70" height="3" rx="2" fill="rgba(129,140,248,0.5)"/>
+  <text x="458" y="316" font-family="sans-serif" font-size="8" fill="rgba(129,140,248,0.8)">🎬 Outro.mp4</text>
+  <!-- B-Roll clips -->
+  <rect x="196" y="337" width="126" height="54" rx="7" fill="url(#vclip2)" stroke="rgba(192,132,252,0.3)"/>
+  <rect x="196" y="337" width="126" height="3" rx="2" fill="rgba(192,132,252,0.5)"/>
+  <text x="204" y="380" font-family="sans-serif" font-size="8" fill="rgba(192,132,252,0.8)">🎬 City_Aerial.mp4</text>
+  <rect x="360" y="337" width="112" height="54" rx="7" fill="url(#vclip1)" stroke="rgba(129,140,248,0.3)"/>
+  <rect x="360" y="337" width="112" height="3" rx="2" fill="rgba(129,140,248,0.5)"/>
+  <text x="368" y="380" font-family="sans-serif" font-size="8" fill="rgba(129,140,248,0.8)">🎬 Office_B.mp4</text>
+  <!-- Audio clip -->
+  <rect x="254" y="401" width="168" height="54" rx="7" fill="url(#aclip1)" stroke="rgba(52,211,153,0.3)"/>
+  <rect x="254" y="401" width="168" height="3" rx="2" fill="rgba(52,211,153,0.5)"/>
+  <!-- Waveform bars -->
+  <g opacity="0.4">
+    <rect x="260" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="264" y="422" width="2" height="10" rx="1" fill="#34d399"/>
+    <rect x="268" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+    <rect x="272" y="420" width="2" height="14" rx="1" fill="#34d399"/>
+    <rect x="276" y="424" width="2" height="8" rx="1" fill="#34d399"/>
+    <rect x="280" y="414" width="2" height="24" rx="1" fill="#34d399"/>
+    <rect x="284" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="288" y="422" width="2" height="12" rx="1" fill="#34d399"/>
+    <rect x="292" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+    <rect x="296" y="420" width="2" height="14" rx="1" fill="#34d399"/>
+    <rect x="300" y="424" width="2" height="8" rx="1" fill="#34d399"/>
+    <rect x="304" y="414" width="2" height="22" rx="1" fill="#34d399"/>
+    <rect x="308" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="312" y="412" width="2" height="26" rx="1" fill="#34d399"/>
+    <rect x="316" y="420" width="2" height="12" rx="1" fill="#34d399"/>
+    <rect x="320" y="416" width="2" height="18" rx="1" fill="#34d399"/>
+    <rect x="324" y="422" width="2" height="10" rx="1" fill="#34d399"/>
+    <rect x="328" y="414" width="2" height="24" rx="1" fill="#34d399"/>
+    <rect x="332" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="336" y="420" width="2" height="14" rx="1" fill="#34d399"/>
+    <rect x="340" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+    <rect x="344" y="424" width="2" height="8" rx="1" fill="#34d399"/>
+    <rect x="348" y="412" width="2" height="26" rx="1" fill="#34d399"/>
+    <rect x="352" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="356" y="414" width="2" height="22" rx="1" fill="#34d399"/>
+    <rect x="360" y="420" width="2" height="14" rx="1" fill="#34d399"/>
+    <rect x="364" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+    <rect x="368" y="422" width="2" height="10" rx="1" fill="#34d399"/>
+    <rect x="372" y="424" width="2" height="8" rx="1" fill="#34d399"/>
+    <rect x="376" y="414" width="2" height="24" rx="1" fill="#34d399"/>
+    <rect x="380" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="384" y="412" width="2" height="26" rx="1" fill="#34d399"/>
+    <rect x="388" y="420" width="2" height="14" rx="1" fill="#34d399"/>
+    <rect x="392" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+    <rect x="396" y="422" width="2" height="10" rx="1" fill="#34d399"/>
+    <rect x="400" y="414" width="2" height="22" rx="1" fill="#34d399"/>
+    <rect x="404" y="418" width="2" height="16" rx="1" fill="#34d399"/>
+    <rect x="408" y="424" width="2" height="8" rx="1" fill="#34d399"/>
+    <rect x="412" y="416" width="2" height="20" rx="1" fill="#34d399"/>
+  </g>
+  <text x="262" y="448" font-family="sans-serif" font-size="8" fill="rgba(52,211,153,0.8)">♪ Interview_Audio.wav</text>
+  <!-- Playhead -->
+  <line x1="254" y1="268" x2="254" y2="468" stroke="#f87171" stroke-width="2"/>
+  <polygon points="249,268 259,268 254,260" fill="#f87171"/>
+  <!-- Status Bar -->
+  <rect x="0" y="490" width="900" height="30" fill="#0e0e1c"/>
+  <line x1="0" y1="490" x2="900" y2="490" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="12" y="497" width="52" height="16" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <text x="38" y="509" font-family="monospace" font-size="9" fill="#94a3b8" text-anchor="middle">5 tracks</text>
+  <rect x="70" y="497" width="44" height="16" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <text x="92" y="509" font-family="monospace" font-size="9" fill="#94a3b8" text-anchor="middle">8 clips</text>
+  <rect x="120" y="497" width="52" height="16" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <text x="146" y="509" font-family="monospace" font-size="9" fill="#94a3b8" text-anchor="middle">0:27.0 dur</text>
+  <text x="530" y="509" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.25)">Space=play · V=select · C=razor · S=snap · I/O=marks · L=loop · ⌘Z=undo · Del=remove</text>
+</svg>
